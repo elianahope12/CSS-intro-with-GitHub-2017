@@ -3,13 +3,15 @@
     Where I have commented "keep," DO NOT touch that line!
     */
 
-body {
+body
+{
     background: #FC837B; /* change */
     color: #fff; /* change */
     font-family: Calibri, Arial, sans-serif; /* keep */
 }
 
-article {
+article
+{
     width: 800px; /* keep */
     padding: 20px; /* keep */
     margin: auto; /* keep */
@@ -17,24 +19,33 @@ article {
     background: #B27A77;
 }
 
-aside {
-  background: ##FFBCB3;
+aside
+{
+  background: #FFBCB3;
 }
 
-figure {
+figure
+{
   background: #FFB8B3;
   color: #fff;
 }
-a { color: #B27A77;}
 
-header {
+a:link { color: #B27A77;}
+a:visited {color:#A64038 }
+a:focus {color:#FFB8B3}
+a:hover {color:#AD8B77 }
+a:active {color:#867177}
+
+
+header
+{
   background: #AECBBA;
   color: #fff;
 }
+
 footer {
   background: #AECBBA;
   color: #fff;
-
 }
 /* add your styles here */
 
